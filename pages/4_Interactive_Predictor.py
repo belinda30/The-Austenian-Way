@@ -4,6 +4,8 @@ import spacy
 import nltk
 import re
 import string
+import nltk
+nltk.download('punkt_tab')
 
 nlp = spacy.load("en_core_web_md")
 
